@@ -4,7 +4,7 @@
 # Compiled binary files
 *.out
 *.exe
-main
+my_program
 
 # Debugging files
 *.dSYM/
