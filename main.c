@@ -32,4 +32,12 @@ void variables() {
     printf("You are %d years old!\n", age);
     printf("The year is %d.\n", year);
     printf("You have order %d x items.\n", quantity);
+
+    float gpa = 2.5;
+    float price = 9.99;
+    float temperature = -10.1;
+
+    printf("Your GPA is %f.\n", gpa);
+    printf("The price is $%f.\n", price);
+    printf("The temperature is %f°F.\n", temperature);
 }
