@@ -1,0 +1,28 @@
+# Compiled object files
+*.o
+
+# Compiled binary files
+*.out
+*.exe
+main
+
+# Debugging files
+*.dSYM/
+*.gdb
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*~
+*.bak
+
+# IDE specific files
+*.swp
+*.swo
+*.DS_Store
+
+# Build directories
+build/
+bin/
