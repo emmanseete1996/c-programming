@@ -40,4 +40,10 @@ void variables() {
     printf("Your GPA is %f.\n", gpa);
     printf("The price is $%f.\n", price);
     printf("The temperature is %f°F.\n", temperature);
+
+    double pi = 3.14159265358979;
+    double e = 2.7182818284590;
+
+    printf("The value of pi is %lf.\n", pi);
+    printf("The value of e is %lf.\n", e);
 }
