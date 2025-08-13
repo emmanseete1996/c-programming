@@ -46,4 +46,12 @@ void variables() {
 
     printf("The value of pi is %lf.\n", pi);
     printf("The value of e is %lf.\n", e);
+
+    char grade = 'A';
+    char symbol = '@';
+    char currency = '$';
+
+    printf("Your grade is %c.\n", grade);
+    printf("Your favorite symbol is %c.\n", symbol);
+    printf("The currency is %c.\n", currency);
 }
