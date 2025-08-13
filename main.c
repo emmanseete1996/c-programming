@@ -18,6 +18,7 @@ int main() {
 
 void helloWorld() {
     // Displays "Hello, world!".
+    printf("\n*** Display Text ***\n");
     printf("Hello, world!\n");
 }
 
@@ -29,6 +30,7 @@ void variables() {
     int year = 2025;
     int quantity = 1;
 
+    printf("\n*** Int Variables ***\n");
     printf("You are %d years old!\n", age);
     printf("The year is %d.\n", year);
     printf("You have order %d x items.\n", quantity);
@@ -37,6 +39,7 @@ void variables() {
     float price = 9.99;
     float temperature = -10.1;
 
+    printf("\n*** Float Variables ***\n");
     printf("Your GPA is %f.\n", gpa);
     printf("The price is $%f.\n", price);
     printf("The temperature is %f°F.\n", temperature);
@@ -44,6 +47,7 @@ void variables() {
     double pi = 3.14159265358979;
     double e = 2.7182818284590;
 
+    printf("\n*** Double Variables ***\n");
     printf("The value of pi is %lf.\n", pi);
     printf("The value of e is %lf.\n", e);
 
@@ -51,6 +55,7 @@ void variables() {
     char symbol = '@';
     char currency = '$';
 
+    printf("\n*** Char Variables ***\n");
     printf("Your grade is %c.\n", grade);
     printf("Your favorite symbol is %c.\n", symbol);
     printf("The currency is %c.\n", currency);
