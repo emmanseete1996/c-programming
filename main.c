@@ -63,4 +63,14 @@ void variables() {
     printf("Your grade is %c.\n", grade);
     printf("Your favorite symbol is %c.\n", symbol);
     printf("The currency is %c.\n", currency);
+
+    // Char [] Variables
+    char name[] = "Emman";
+    char food[] = "Ice Cream";
+    char email[] = "fake_email@provider.com";
+
+    printf("\n*** Char [] Variables ***\n");
+    printf("Hello %s\n", name);
+    printf("Your favorite food is %s\n", food);
+    printf("Your email is %s\n", email);
 }
