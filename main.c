@@ -4,7 +4,7 @@
 void helloWorld();
 void variables();
 
-int main() {
+int main(int argc, char **argv) {
 
     // This is a single-line comment.
 
