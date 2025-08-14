@@ -18,7 +18,7 @@ int main() {
 }
 
 void helloWorld() {
-    // Displays "Hello, world!".
+    // Output "Hello, world!" in the console.
     fprintf(stdout, "\n=== Console Output ===\n");
     fprintf(stdout, "Hello, world!\n");
 }
