@@ -1,3 +1,4 @@
+#include <stdatomic.h>
 #include <stdio.h>
 
 void helloWorld();
@@ -18,8 +19,8 @@ int main() {
 
 void helloWorld() {
     // Displays "Hello, world!".
-    printf("\n*** Display Text ***\n");
-    printf("Hello, world!\n");
+    fprintf(stdout, "\n=== Console Output ===\n");
+    fprintf(stdout, "Hello, world!\n");
 }
 
 void variables() {
