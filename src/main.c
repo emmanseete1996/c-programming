@@ -1,8 +1,8 @@
 #include <stdatomic.h>
 #include <stdio.h>
 
-void helloWorld();
-void variables();
+void helloWorld(void);
+void variables(void);
 
 int main(int argc, char **argv) {
 
@@ -12,18 +12,30 @@ int main(int argc, char **argv) {
      * This is a multi-line comment.
      */
 
+    fprintf(stdout, "Number of args: %d\n", argc - 1);
+
+    if (argc > 1) {
+        fprintf(stdout, "Arguments provided:\n");
+
+        for (int i = 1; i < argc; i++) {
+            fprintf(stdout, "Argument %d: %s\n", i, argv[i]);
+        }
+    } else {
+        fprintf(stdout, "No additional arguments provided.\n");
+    }
+
     helloWorld();
     variables();
     return 0;
 }
 
-void helloWorld() {
+void helloWorld(void) {
     // Output "Hello, world!" in the console.
     fprintf(stdout, "\n=== Console Output ===\n");
     fprintf(stdout, "Hello, world!\n");
 }
 
-void variables() {
+void variables(void) {
     // Variable - A reusable container for a value.
     //            Behaves as if it were the value it contains.
 
