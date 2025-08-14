@@ -1,28 +1,29 @@
-# Compiled object files
 *.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
 
-# Compiled binary files
 *.out
 *.exe
-my_project
+my_program
 
-# Debugging files
 *.dSYM/
 *.gdb
+*.stackdump
 
-# Temporary files
-*.tmp
-*.temp
+/build/
+/bin/
+/dist/
 
-# Backup files
+*.log
+*.dep
+
 *~
-*.bak
-
-# IDE specific files
 *.swp
-*.swo
-*.DS_Store
+.DS_Store
+Thumbs.ds
 
-# Build directories
-build/
-bin/
+$(TARGET)
